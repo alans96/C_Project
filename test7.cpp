@@ -3,7 +3,7 @@
 //}
 
 #include  <iostream>
- void PrintTest(int x){
+ void PrintTest(int x){ // Void é vazio, não retorna nada apenas faz p print na tela
      std::cout << x << " foi o teste \n";
 
  }
