@@ -4,8 +4,7 @@ using namespace std;
 
 int main(){
     for (int i = 0; i < 10; i++){ //i++ == i+=1 
-    
-        int x=-10;
+        int x;
         cout << "Digite um numero: ";
         cin >> x;
 
@@ -19,4 +18,5 @@ int main(){
             cout << "X eh zero!\n";
         }
     }
+    system("pause");
 }
